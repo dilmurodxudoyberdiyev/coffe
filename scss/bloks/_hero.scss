@@ -1,0 +1,104 @@
+.great_box{
+    background-image: url("../../img/Bitmap.svg");
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding-bottom: 116px;
+  
+}
+
+
+
+.content_title{
+max-width: 576px;
+padding-top: 117px;
+padding-left: 85px;
+padding-bottom: 32px;
+font-family: 'Fraunces';
+font-weight: 900;
+font-size: 72px;
+line-height: 72px;
+color: #FEFCF7;
+}
+.content_text{
+max-width: 491px;
+padding-left: 85px;
+padding-bottom: 56px;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FEFCF7;
+mix-blend-mode: normal;
+opacity: 0.8;
+}
+.content_link{
+display: inline-block;
+margin-left: 85px;
+padding: 15px 31px;
+font-weight: 900;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+color: #FEFCF7;
+background: #66D2CF;
+border-radius: 6px;
+}
+@media screen and(max-width:940px) {
+    .great_box{
+        padding: 104px 0;
+        background-image: url("../../img/tablit.svg");
+    background-size: cover;
+    }
+    .content_title{
+        max-width: 429px;
+        font-size: 48px;
+        line-height: 48px;
+    }
+    .content_text{
+        max-width: 350px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+@media screen and(max-width:755px) {
+    .great_box{
+        padding: 104px 0;
+        background-image: url("../../img/hero-bg-mob.svg");
+        background-size: cover;
+    
+    }
+    
+}
+@media screen and (max-width:455px) {
+    .great_box{
+        padding: 100px 0;
+        background-image: url("../../img/hero-bg-mob.svg");
+        background-size: cover;
+    
+    }
+    .content_title{
+        margin-bottom:30px;
+        padding: 0;
+        margin-left: 30px;
+        margin-right: 30px;
+        max-width: 100%;
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .content_text{
+        margin-bottom: 30px;
+        padding: 0;
+        margin-left: 30px;
+        margin-right: 30px;
+        max-width: 100%;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .content_link{
+        margin-left: 30px;
+    }
+    .great_content{
+        max-width: 100%;
+        text-align: center;
+    }
+    
+}

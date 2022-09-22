@@ -1,0 +1,34 @@
+.site_header{
+    padding: 44px 0;
+}
+.header_containet{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content_list1{
+    display: flex;
+}
+.content_item_link{
+margin-left: 32px;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 0.923077px;
+text-transform: uppercase;
+color: #83888F;
+
+}
+.Combined{
+    display: none;
+    background-position: center;
+    background-color: transparent;
+}
+@media screen and(max-width:600px) {
+    .content_list1{
+        display: none;
+    }
+    .Combined{
+        display: block;
+    }
+}

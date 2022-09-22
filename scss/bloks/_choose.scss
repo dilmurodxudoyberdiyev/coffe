@@ -1,0 +1,151 @@
+.choose_box {
+    margin-top: 188px;
+    background-image: url("../../img/Mask.svg");
+    background-repeat: no-repeat;
+    height: auto;
+    position: relative;
+}
+.choose_list{
+    display: flex;
+    justify-content: space-evenly;
+ 
+}
+.choose_item {
+    padding:  48px 48px 48px;
+    max-width: 350px;
+    background-color: #0E8784;
+    background: #0E8784;
+    border-radius: 8px;
+}
+.choose_img{
+  margin-left: 90px;
+    margin-top: 72px;
+    margin-bottom: 56px;
+
+}
+.whyy_box{
+  padding-top: 112px;
+  max-width: 540px;
+  margin: 0 auto;
+  margin-bottom: 86px;
+}
+.whyy_box_list{
+margin-bottom: 32px;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+color: #FEFCF7;
+}
+.whyy_box_item{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.choose_boxitem{
+  max-width: 71px;
+}
+.choose_titel {
+    margin-bottom: 24px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FEFCF7;
+}
+
+.choose_text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7;
+}
+@media screen and(max-width:1090px) {
+   .choose_list{
+    flex-direction: column;
+   }
+   .choose_img{
+    margin: 0;
+   }
+    .choose_item{
+    display: flex;
+    max-width: 100%;
+    margin-bottom: 24px;
+   } 
+   .choose_img{
+ margin-right: 100px;
+   }
+   .choose_titel{
+    margin-top: 50px;
+   }
+   
+}
+@media screen and(max-width:760px) {
+  .choose_titel{
+    font-size: 24px;
+    line-height: 32px;
+  
+  } 
+  .choose_text{
+    max-width: 400px;
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .choose_img{
+    margin: 0;
+  }
+  
+ }
+ @media screen and(max-width:508px) {
+  
+    .choose_item{
+    flex-direction: column;
+  } 
+  .choose_img{
+    max-width: 120px;
+    text-align:center;
+    align-items: center;
+    
+  } 
+  .choose_boxitem{
+    width: 71px;
+    margin: 0 auto;
+  }
+  .choose_item{
+    padding-top: 72px;
+  }
+ }
+ @media screen and(max-width:625px){
+  .whyy_box
+  {
+    max-width: 450px;
+  }
+  .whyy_box_list{
+    font-size: 32px;
+    line-height: 48px;
+ }
+ .whyy_box_item{
+  font-size: 15px;
+  line-height: 25px;
+ }
+}
+@media screen and(max-width:490px){
+  .whyy_box
+  {
+    max-width: 300px;
+  }
+  .whyy_box_list{
+    font-size: 28px;
+    line-height: 28px;
+ }
+ .whyy_box_item{
+  font-size: 15px;
+  line-height: 25px;
+ }
+}

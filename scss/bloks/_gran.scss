@@ -1,0 +1,71 @@
+.gran_box{
+    padding-top: 100px;
+    background-image: url("../../img/Group\ 13.svg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: contain;
+    max-width: 1090;
+}
+.gran_list{
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.gran_item{
+    max-width: 255px;
+}
+.titel{
+margin-bottom: 24px;
+text-align: center;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+color: #333D4B;
+}
+.gran_text{
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+color: #333D4B;
+}
+.gran_item__img{
+    margin-bottom: 71px;
+}
+@media screen and(max-width:1017px) {
+   .gran_list{
+    flex-direction: column;
+   } 
+   .gran_item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   }
+   .gran_item{
+    max-width: 100%;
+}
+.gran_item{
+    max-width: 600px;
+}
+}
+@media screen and(max-width:630px){
+    .gran_item{
+        max-width: 500px;
+    }
+    .titel{
+    font-size: 24px;
+    line-height: 32px;
+}
+.gran_text{
+    font-size: 15px;
+    line-height: 25px;
+}
+}
+@media screen and(max-width:485px){
+.gran_item{
+    flex-direction: column;
+}
+.gran_item{
+    max-width: 270px;
+}
+}
